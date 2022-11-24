@@ -37,6 +37,7 @@ namespace ProvaGit
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Biblioteca biblioteca = new Biblioteca(txtNome.Text, txtIndirizzo.Text, txtApertura.Text, txtChiusura.Text);
+            //Questo è un commento aggiunto per poi scaricare la repository modificata così posso fare lo screenshot :D
         }
     }
 }

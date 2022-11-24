@@ -69,7 +69,12 @@ namespace ProvaGit
             {
                 string[] informazioniSplittate = libro.Split(" ");
                 string autore = informazioniSplittate[1];
-                numeroLibriTrovati++;
+
+                if (autore == txtAutore.Text)
+                {
+                    numeroLibriTrovati++;
+                }
+                
             }
 
             MessageBox.Show("Sono stati trovati " + numeroLibriTrovati + " libri con l'autore inserito.");

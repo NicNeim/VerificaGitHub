@@ -25,7 +25,7 @@ namespace ProvaGit
 
         public string toString()
         {
-            return "Autore: " + Autore + ", Titolo: " + Titolo + ", Anno di pubblicazione: " + AnnoPubblicazione + ", Editore: " + Editore + ", Pagine: " + Pagine;
+            return "Autore: " + Autore + " Titolo: " + Titolo + " Anno di pubblicazione: " + AnnoPubblicazione + " Editore: " + Editore + " Pagine: " + Pagine;
         }
 
         public string readingTime(int p)

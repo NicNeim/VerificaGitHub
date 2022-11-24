@@ -44,6 +44,11 @@
         <TextBox x:Name="txtIndirizzo" Grid.Column="4" Grid.Row="2" TextWrapping="Wrap" Text="TextBox" Margin="10,10,10,10"/>
         <TextBox x:Name="txtApertura" Grid.Column="4" Grid.Row="3" TextWrapping="Wrap" Text="TextBox" Margin="10,10,10,10"/>
         <TextBox x:Name="txtChiusura" Grid.Column="4" Grid.Row="4" TextWrapping="Wrap" Text="TextBox" Margin="10,10,10,10"/>
+        <Label x:Name="lblNumeroLibri" Grid.Column="2" Content="" Margin="10,10,10,10"/>
+        <Button x:Name="btnTrovaLibro" Grid.Column="5" Content="Ricerca Libro&#xD;&#xA;Titolo" Margin="10,10,10,10" Click="btnTrovaLibro_Click"/>
+        <TextBox x:Name="txtTitoloLibro" Grid.Column="5" Grid.Row="1" TextWrapping="Wrap" Text="Titolo Libro" Margin="10,10,10,10"/>
+        <Button x:Name="btnTrovaPerAutore" Grid.Column="5" Content="Ricerca Libri&#xD;&#xA;Autore" Grid.Row="2" Margin="10,10,10,10" Click="btnTrovaPerAutore_Click"/>
+        <TextBox x:Name="txtAutoreDaCercare" TextWrapping="Wrap" Text="Autore Libri" Grid.Column="5" Margin="10,10,10,10" Grid.Row="3"/>
 
     </Grid>
 </Window>

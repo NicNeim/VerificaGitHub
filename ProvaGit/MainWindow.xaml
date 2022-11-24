@@ -23,7 +23,7 @@
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
-        <Button x:Name="btnAggiungi" Content="Aggiungi" Margin="10,10,10,10"/>
+        <Button x:Name="btnAggiungi" Content="Aggiungi" Margin="10,10,10,10" Click="btnAggiungi_Click"/>
         <Label Content="Titolo" Grid.Row="1" Margin="10,10,10,10"/>
         <Label Content="Autore" Grid.Row="2" Margin="10,10,10,10"/>
         <Label Content="Editore" Grid.Row="3" Margin="10,10,10,10"/>
@@ -34,9 +34,8 @@
         <TextBox x:Name="txtAnno" TextWrapping="Wrap" Text="TextBox" Grid.Column="1" Margin="10,10,10,10" Grid.Row="4"/>
         <TextBox x:Name="txtPagine" TextWrapping="Wrap" Text="TextBox" Grid.Column="1" Margin="10,10,10,10" Grid.Row="5"/>
         <TextBox x:Name="txtTitolo" TextWrapping="Wrap" Text="TextBox" Grid.Column="1" Margin="10,10,10,10" Grid.Row="1"/>
-        <Button x:Name="btnVisualizzaLista" Grid.Column="2" Content="Visualizza Lista" Margin="10,10,10,10"/>
         <ListBox x:Name="lstLibri" d:ItemsSource="{d:SampleData ItemCount=5}" Grid.Column="2" Margin="10,10,10,10" Grid.RowSpan="5" Grid.Row="1"/>
-        <Button Grid.Column="3" Content="Crea Biblioteca" Margin="10,10,10,9"/>
+        <Button Grid.Column="3" Content="Crea Biblioteca" Margin="10,10,10,9" Click="Button_Click"/>
         <Label Content="Nome" Grid.Row="1" Margin="10,10,10,10" Grid.Column="3"/>
         <Label Content="Indirizzo" Grid.Row="2" Margin="10,10,10,10" Grid.Column="3"/>
         <Label Content="Orario Apertura" Grid.Row="3" Margin="10,10,10,10" Grid.Column="3"/>
@@ -45,7 +44,6 @@
         <TextBox x:Name="txtIndirizzo" Grid.Column="4" Grid.Row="2" TextWrapping="Wrap" Text="TextBox" Margin="10,10,10,10"/>
         <TextBox x:Name="txtApertura" Grid.Column="4" Grid.Row="3" TextWrapping="Wrap" Text="TextBox" Margin="10,10,10,10"/>
         <TextBox x:Name="txtChiusura" Grid.Column="4" Grid.Row="4" TextWrapping="Wrap" Text="TextBox" Margin="10,10,10,10"/>
-        <Button x:Name="btnVisualizzaBiblioteca" Grid.Column="4" Content="Visualizza&#xD;&#xA;Informazioni&#xD;&#xA;Biblioteca" Margin="10,10,10,10"/>
 
     </Grid>
 </Window>

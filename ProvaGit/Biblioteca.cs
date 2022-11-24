@@ -13,5 +13,13 @@ namespace ProvaGit
         public string OrarioApertura { get; set; }
         public string OrarioChiusura { get; set; }
         public List<Libro> ElencoLibri { get; set; }
+
+        public Biblioteca(string nome, string indirizzo, string orarioApertura, string orarioChiusura)
+        {
+            Nome = nome;
+            Indirizzo = indirizzo;
+            OrarioApertura = orarioApertura;
+            OrarioChiusura = orarioChiusura;
+        }
     }
 }
